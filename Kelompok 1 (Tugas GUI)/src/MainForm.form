@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="14" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="15" bottom="10" right="15"/>
+    <constraints>
+      <xy x="20" y="7" width="674" height="514"/>
+    </constraints>
+    <properties>
+      <background color="-13714516"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="dc16d" class="javax.swing.JLabel" binding="lbl2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Lebar"/>
+        </properties>
+      </component>
+      <component id="51808" class="javax.swing.JLabel" binding="lbl3">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Tinggi"/>
+        </properties>
+      </component>
+      <component id="5ff9a" class="javax.swing.JTextField" binding="txt3">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="326e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="281" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono Medium" style="0"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Bangun 2D"/>
+        </properties>
+      </component>
+      <component id="9a968" class="javax.swing.JRadioButton" binding="radioButtonPersegiPanjang">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Persegi Panjang"/>
+        </properties>
+      </component>
+      <component id="b89ed" class="javax.swing.JRadioButton" binding="radioButtonSegitiga">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Segitiga Siku-Siku"/>
+        </properties>
+      </component>
+      <component id="6c67e" class="javax.swing.JButton" binding="buttonHitung2D">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4475090"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="10"/>
+          <text value="Hitung"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="992f4" class="javax.swing.JTextField" binding="txtLuas">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="7e7d9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="281" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Aplikasi Penghitung Bangun"/>
+        </properties>
+      </component>
+      <component id="b0433" class="javax.swing.JRadioButton" binding="radioButtonJajargenjang">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Jajar Genjang"/>
+        </properties>
+      </component>
+      <component id="697a" class="javax.swing.JRadioButton" binding="radioButtonLingkaran">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Lingkaran"/>
+        </properties>
+      </component>
+      <component id="e0949" class="javax.swing.JLabel" binding="lblLuas">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Luas"/>
+        </properties>
+      </component>
+      <component id="867a9" class="javax.swing.JLabel" binding="lblKeliling">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Keliling"/>
+        </properties>
+      </component>
+      <component id="90311" class="javax.swing.JLabel" binding="lbl1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Panjang"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="68849" class="javax.swing.JRadioButton" binding="radioButtonPersegi">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Persegi"/>
+        </properties>
+      </component>
+      <component id="3fd36" class="javax.swing.JTextField" binding="txt1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="870f5" class="javax.swing.JTextField" binding="txt2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="78894" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono Medium" style="0"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <text value="Bangun 3D"/>
+        </properties>
+      </component>
+      <component id="8ce8f" class="javax.swing.JLabel" binding="lbl4">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Alas"/>
+        </properties>
+      </component>
+      <component id="cd62" class="javax.swing.JLabel" binding="lbl5">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Jari-Jari"/>
+        </properties>
+      </component>
+      <component id="cab4f" class="javax.swing.JLabel" binding="lbl6">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Tinggi"/>
+        </properties>
+      </component>
+      <component id="21694" class="javax.swing.JLabel" binding="lbl7">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Segitiga 1"/>
+        </properties>
+      </component>
+      <component id="25c8e" class="javax.swing.JLabel" binding="lbl8">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Segitiga 2"/>
+        </properties>
+      </component>
+      <component id="8caaa" class="javax.swing.JLabel" binding="lbl9">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Segitiga 3"/>
+        </properties>
+      </component>
+      <component id="bab79" class="javax.swing.JTextField" binding="txt4">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5cbbe" class="javax.swing.JTextField" binding="txt5">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9ce11" class="javax.swing.JTextField" binding="txt6">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9ca5e" class="javax.swing.JTextField" binding="txt7">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="78a59" class="javax.swing.JTextField" binding="txt8">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="51d7" class="javax.swing.JTextField" binding="txt9">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4004f" class="javax.swing.JRadioButton" binding="radioButtonKubus">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Kubus"/>
+        </properties>
+      </component>
+      <component id="5f253" class="javax.swing.JRadioButton" binding="radioButtonBalok">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Balok"/>
+        </properties>
+      </component>
+      <component id="c3bef" class="javax.swing.JRadioButton" binding="radioButtonBola">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Bola"/>
+        </properties>
+      </component>
+      <component id="5398b" class="javax.swing.JRadioButton" binding="radioButtonKerucut">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Kerucut"/>
+        </properties>
+      </component>
+      <component id="63efc" class="javax.swing.JLabel" binding="lbl10">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Segitiga 4"/>
+        </properties>
+      </component>
+      <component id="951e7" class="javax.swing.JTextField" binding="txt10">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b8e5b" class="javax.swing.JRadioButton" binding="radioButtonPrismasegitiga">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Prisma Segitiga"/>
+        </properties>
+      </component>
+      <component id="2b1cd" class="javax.swing.JRadioButton" binding="radioButtonLimassegiempat">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Limas Segiempat"/>
+        </properties>
+      </component>
+      <component id="824e5" class="javax.swing.JButton" binding="buttonHitung3D">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4475090"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="10"/>
+          <text value="Hitung"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="7bb9c" class="javax.swing.JLabel" binding="lblvolume">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Volume"/>
+        </properties>
+      </component>
+      <component id="4de0b" class="javax.swing.JLabel" binding="lblLuasPer">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Luas Permukaan"/>
+        </properties>
+      </component>
+      <component id="389d5" class="javax.swing.JTextField" binding="txtVolumee">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="b7009" class="javax.swing.JTextField" binding="txtKeliling">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="54f32" class="javax.swing.JTextField" binding="txtLuaspermukaan">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="e0c87" class="javax.swing.JRadioButton" binding="radioButtonLimassegitiga">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13714516"/>
+          <foreground color="-16777216"/>
+          <text value="Limas Segitiga"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="68849"/>
+      <member id="9a968"/>
+      <member id="697a"/>
+      <member id="b89ed"/>
+      <member id="b0433"/>
+    </group>
+    <group name="buttonGroup2">
+      <member id="4004f"/>
+      <member id="e0c87"/>
+      <member id="b8e5b"/>
+      <member id="4004f"/>
+      <member id="5f253"/>
+      <member id="5398b"/>
+      <member id="c3bef"/>
+      <member id="2b1cd"/>
+    </group>
+  </buttonGroups>
+</form>
