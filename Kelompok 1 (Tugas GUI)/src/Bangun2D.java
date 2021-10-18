@@ -1,9 +1,3 @@
-package bangun2d;
-
-/**
- *
- * @author Dell
- */
 public class Bangun2D {
 
     public int kelPersegi(int sisi){
