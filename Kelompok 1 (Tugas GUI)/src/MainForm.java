@@ -518,6 +518,7 @@ public class MainForm {
                 txtLuaspermukaan.setText("");
             }
         });
+		//============= END =============
     }
 
     public static void main(String[] args) {
